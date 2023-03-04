@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dosis:wght@500&family=Source+Code+Pro:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color:black;
+    width: 12vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 200vh;
+
+}
+
+.sidebar nav {
+    padding: 50px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.sidebar nav li a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 90vw;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    /*background-color:hotpink;*/
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:sans-serif;
+    color: white;
+
+}
+
+.hello {
+    font-size: 60px;
+
+}
+
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 25px;
+
+}
+
+.moreabout {
+    font-size: 20px;
+    margin-top: 20px;
+    font-style: 'Dancing Script', cursive;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 70px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 9px;
+    cursor: pointer;
+
+}
+.btn-sm-{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devpic img{
+    width: 39vh;
+    height: 60vh;
+}
+
+.contactform{
+    font-family: sans-serif;
+    padding-top: 100px;
+    padding: 0px 30px;
+}
+
+.contactform h1{
+    font-style: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 10px;
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.contactform form div input{
+    width: 40vw;
+    border-radius: 11px;
+    margin: 6px 0 0 0;
+    padding: 4px;
+    
+}
+
+#emailhelp{
+    font-size: 11px;
+    margin: 0px 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 30px;
+    margin: 4px 0px;
+}
+.blogItem{
+    margin: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+    text-align: center;
+    color: white;
+
+}
+p{
+    font-family: fira 'Fira Sans',sans-serif;
+}
+.intro h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 12px;
+}
+.intro p{
+    font-family:'Dosis', sans-serif;
+}
+.skillcontainer{
+    padding: 20px;
+}
+.skill{
+    width: 250px;
+    height: 6px;
+    background-color:lightgreen;
+    border: 2px solid black;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.hundred{
+    width: 300px;
+    background-color: aqua;
+}
+.seventyfive{
+    width: 200px;
+    background-color: deeppink;
+}
+.fifty{
+    width: 150px;
+    background-color:brown;
+}
+.projectitem{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* services section css */
+.servicesText.card {
+    height: 100px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 200px;
+    text-align: center;
+    width: 90%;
+    
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.about{
+    height: 150vh;
+}
+
+/* spacing on all sections */
+#about, #services, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+/* for service section */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    position: relative;
+    background-image: url(bgpic1.png);
+    color: white;
+}
+
+.container1{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.container1 h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container1 .services{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container1 .services .card{
+    width: 330px;
+    text-align: center;
+    background:rgb(39, 35, 35);
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.container1 .services .card:hover{
+    background: chocolate;
+}
+
+.container1 .services .card .content{
+    transition: 0.3s;
+}
+
+.container1 .services .card:hover .content{
+    transform: scale(1.07);
+}
+
+.container1 .services .card .content .icon{
+    padding: 5px 0;
+    color: white;
+}
+
+.container1 .services .card .content .icon i{
+    font-size: 40px;
+}
+
+.container1 .services .card:hover .content .title{
+    color: white;
+}
+
+.container1 .services .card .content .title{
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 500;
+    color: chocolate;
+    transition: 0.2s;
+}
+
